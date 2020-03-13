@@ -10,6 +10,7 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
         driver = webdriver.Chrome()
         driver.get("https://www.baokaodaxue.com/")
+        self.driver.find_element_by_class_name('use_btn').click()
     def test_case1(self):
         print("66")
 
