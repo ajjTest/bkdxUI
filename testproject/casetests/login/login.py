@@ -4,7 +4,7 @@ from selenium import webdriver
 class TestLogin(unittest.TestCase):
     phone = "15218884975"
     password = "a1234567"
-    
+
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get("https://www.baokaodaxue.com/")
@@ -16,7 +16,6 @@ class TestLogin(unittest.TestCase):
         self.driver.find_element_by_class_name('submit_btn').click()
         print("登陆")
     def test_login2(self):
-        # self.driver.quit()
         print("sss")
 if __name__ == '__main__':
     unittest.main()
