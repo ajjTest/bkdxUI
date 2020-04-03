@@ -3,6 +3,7 @@ python+selenium+unittest+BeautifulReport
 一、如何开始
 
 （1）安装环境：python3+selenium+BeautifulReport
+
 （2）下载浏览器驱动
 
 二、项目目录结构
